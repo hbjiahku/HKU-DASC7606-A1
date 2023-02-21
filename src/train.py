@@ -149,4 +149,4 @@ for epoch in range(args.num_epochs):
     torch.save(save, os.path.join(output_dir, 'hku_mmdetector_epoch_'+str(epoch+1)+'.pth'))
 
     torch.cuda.empty_cache()
-    
+    ###############my edit
